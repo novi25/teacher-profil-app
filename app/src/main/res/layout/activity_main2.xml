@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/poto12"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDENTITAS GURU"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA: munif S.pd,M,pd"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIP: 197808162006041012"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT:  candisari RT.01/RW.02 "
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROVINSI: JAWA TENGAH"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TANGGAL LAHIR: Demak,16 agustus 1978"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobi:  olahraga dan Membaca"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="PEKERJAAN: Guru Bahasa Inggris "
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnrequestguru2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="IMAGE GURU"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    </LinearLayout>
